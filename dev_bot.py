@@ -53,7 +53,7 @@ def run_bot():
 
         if message.content.startswith("!help"):
             await message.channel.send(
-                "!hello - Say hello to the bot\n!inspire - Get an inspirational quote\n!help - Get help with the bot\n!joke - Get a joke\n!bitcoin - Get current bitcoin price"
+                "!hello - Say hello to the bot\n!inspire - Get an inspirational quote\n!help - Get help with the bot\n!joke - Get a joke\n!bitcoin - Get current bitcoin price\n!def AnyWord - get the definition of the word"
             )
 
         if message.content.startswith("!hello"):
